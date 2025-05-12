@@ -2,6 +2,7 @@
 // A true app would be more complex and separated into different files.
 
 import { writable } from 'svelte/store';
+
 /*
  * The initial state of our store when the app loads.
  * Usually, you would fetch this from a server. Let's not worry about that now
@@ -20,7 +21,6 @@ const TaskBox = () => {
     status: 'idle',
     error: false,
   });
-
   return {
     subscribe,
     // Method to archive a task, think of a action with redux or Pinia
@@ -42,6 +42,7 @@ const TaskBox = () => {
         return store;
       });
     },
+    isError: () => update((store) => ({ ...store, error: true })),
   };
 };
 export const taskStore = TaskBox();
