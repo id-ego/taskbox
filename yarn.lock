@@ -2930,6 +2930,25 @@ __metadata:
   languageName: node
   linkType: hard
 
+"chromatic@npm:^11.28.2":
+  version: 11.28.2
+  resolution: "chromatic@npm:11.28.2"
+  peerDependencies:
+    "@chromatic-com/cypress": ^0.*.* || ^1.0.0
+    "@chromatic-com/playwright": ^0.*.* || ^1.0.0
+  peerDependenciesMeta:
+    "@chromatic-com/cypress":
+      optional: true
+    "@chromatic-com/playwright":
+      optional: true
+  bin:
+    chroma: dist/bin.js
+    chromatic: dist/bin.js
+    chromatic-cli: dist/bin.js
+  checksum: 0b6b3946f1de07b219d85f6c8b511f3dd174b036519d5c19c168aa4e55db92018082a45b2efd6b601da169c1855dfaa3f6fe5302ca72db5f3afcf1b767b4d25a
+  languageName: node
+  linkType: hard
+
 "ci-info@npm:^3.2.0":
   version: 3.9.0
   resolution: "ci-info@npm:3.9.0"
@@ -4679,6 +4698,7 @@ __metadata:
     "@storybook/test-runner": ^0.22.0
     "@sveltejs/vite-plugin-svelte": ^3.0.2
     "@types/node": ^22.15.17
+    chromatic: ^11.28.2
     msw: ^2.3.0
     msw-storybook-addon: ^2.0.3
     storybook: ^8.6.12

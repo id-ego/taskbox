@@ -15,7 +15,7 @@
   {:else}
     <div class="page lists-show">
       <nav>
-        <h1 class="title-page">Taskbox</h1>
+        <h1 class="title-page">Task Box</h1>
       </nav>
       <TaskList />
     </div>
