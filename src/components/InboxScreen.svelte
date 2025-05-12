@@ -8,7 +8,7 @@
     <div class="page lists-show">
       <div class="wrapper-message">
         <span class="icon-face-sad" />
-        <p class="title-message">Oh no!</p>
+        <p class="title-message">Oh no!!!</p>
         <p class="subtitle-message">Something went wrong</p>
       </div>
     </div>
