@@ -19,9 +19,11 @@
     "preview": "vite preview",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
+    "test-storybook": "test-storybook",
     "init-msw": "msw init public/"
   },
   "devDependencies": {
+    "@playwright/test": "^1.52.0",
     "@storybook/addon-a11y": "^8.6.12",
     "@storybook/addon-essentials": "^8.6.12",
     "@storybook/addon-interactions": "^8.6.12",
@@ -30,7 +32,9 @@
     "@storybook/svelte": "^8.6.12",
     "@storybook/svelte-vite": "^8.6.12",
     "@storybook/test": "^8.6.12",
+    "@storybook/test-runner": "^0.22.0",
     "@sveltejs/vite-plugin-svelte": "^3.0.2",
+    "@types/node": "^22.15.17",
     "msw": "^2.3.0",
     "msw-storybook-addon": "^2.0.3",
     "storybook": "^8.6.12",
